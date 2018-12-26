@@ -2,7 +2,7 @@
 //  stdc++.h
 // @..*
 //
-//  Created by Choonghun Lee on 9/15/18.
+//  Created    on 9/15/18.
 //  @..
 //
 

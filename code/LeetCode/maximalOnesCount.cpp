@@ -2,7 +2,7 @@
 //  maximalRectangle.cpp
 // @..*
 //
-//  Created by Choonghun Lee on 9/8/18.
+//  Created    on 9/8/18.
 //  @..
 //
 

@@ -2,7 +2,7 @@
 //
 // @..*
 //
-//  Created by Choonghun Lee on 9/11/18.
+//  Created    on 9/11/18.
 //  @..
 //
 // https://www.geeksforgeeks.org/element-1st-array-count-elements-less-equal-2nd-array/

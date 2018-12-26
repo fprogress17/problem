@@ -2,7 +2,7 @@
 //
 // @..*
 //
-//  Created by Choonghun Lee on 9/11/18.
+//  Created    on 9/11/18.
 //  @..
 //
 #include <iostream>

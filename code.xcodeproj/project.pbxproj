@@ -471,13 +471,6 @@
 			path = LeetCode;
 			sourceTree = "<group>";
 		};
-		2EA2C8FDA8AB465B17550456 /* String */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = String;
-			sourceTree = "<group>";
-		};
 		71020132217922E40039185A /* graph */ = {
 			isa = PBXGroup;
 			children = (
@@ -549,7 +542,6 @@
 				71F0DB322155495200D5EEBE /* setPerm */,
 				1E7930922150262A001066B2 /* stack */,
 				71F0DB292152FFA900D5EEBE /* binaraySearch */,
-				2EA2C8FDA8AB465B17550456 /* String */,
 			);
 			path = code;
 			sourceTree = "<group>";
