@@ -39,41 +39,30 @@ int longestValidParentheses(string s) {
 
 int longestValidParenthesis(string s){
     
-    int index = 0;
-    int len = s.length();
-    
-    int count = 0;
-    
-    stack<char> stak;
-    
-    while(index < len){
+    int longestValidParentheses(string s) {
         
-        if(stak.empty()){
-            
-            if(s[index] == ')'){
-                
-            }else if(s[index] == '('){
-                stak.push(s[index]);
+        stack<pair<int,int>> stk;   // first: index, second: 0:'(', 1:')'
+        int maxLen = 0, curLen = 0;
+        
+        for(int i=0; i<s.size(); i++) {
+        
+            if(s[i]=='(')   // left parenthesis
+                stk.push(make_pair(i,0));
+            else {          // right parenthesis
+                if(stk.empty() || stk.top().second == 1 )
+                    stk.push(make_pair(i,1));
+                else {
+                    stk.pop ();
+                    if(stk.empty())
+                        curLen = i + 1 ;
+                    else
+                        curLen = i - stk.top().first;
+                    maxLen = max(maxLen, curLen);
+                }
             }
-            
-        } else{
-            
-            
-            if(s[index] == ')'){
-                stak.pop();
-                ++count;
-            }else if( s[index] == '('){
-                stak.push(s[index]);
-            }
-            
-            
-            
         }
-        
-        ++index;
+        return maxLen;
     }
-    
-    return count;
     
 }
 

@@ -37,6 +37,11 @@
 		1EE9F1CF21D3D70300201196 /* maximalRectangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maximalRectangle.cpp; sourceTree = "<group>"; };
 		1EE9F1D121D3D71000201196 /* decodeWays.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = decodeWays.cpp; sourceTree = "<group>"; };
 		1EE9F1D321D3D72600201196 /* cppRef.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cppRef.cpp; sourceTree = "<group>"; };
+		1EE9F1D621D57A1E00201196 /* tarjanSCC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tarjanSCC.cpp; sourceTree = "<group>"; };
+		1EE9F1D821D5806300201196 /* meetingRoom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = meetingRoom.cpp; sourceTree = "<group>"; };
+		1EE9F1DA21D5845E00201196 /* FordFulkerson.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FordFulkerson.cpp; sourceTree = "<group>"; };
+		1EE9F1DD21D5A32600201196 /* fenwickTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fenwickTree.cpp; sourceTree = "<group>"; };
+		1EE9F1DF21D5CEC100201196 /* measureOfInsertSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = measureOfInsertSort.cpp; sourceTree = "<group>"; };
 		1EF8E5C9219609890066F960 /* fruitIntoBaskets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fruitIntoBaskets.cpp; sourceTree = "<group>"; };
 		1EF8E5CB219623B70066F960 /* killProcess.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = killProcess.cpp; sourceTree = "<group>"; };
 		1EF8E5CD21967A490066F960 /* compress.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = compress.cpp; sourceTree = "<group>"; };
@@ -276,6 +281,54 @@
 			path = stack;
 			sourceTree = "<group>";
 		};
+		1EE9F1D521D579D000201196 /* tarjanScc */ = {
+			isa = PBXGroup;
+			children = (
+				1EE9F1D621D57A1E00201196 /* tarjanSCC.cpp */,
+			);
+			path = tarjanScc;
+			sourceTree = "<group>";
+		};
+		1EE9F1D721D5805900201196 /* 2SAT */ = {
+			isa = PBXGroup;
+			children = (
+				1EE9F1D821D5806300201196 /* meetingRoom.cpp */,
+			);
+			path = 2SAT;
+			sourceTree = "<group>";
+		};
+		1EE9F1D921D5844F00201196 /* networkFlow */ = {
+			isa = PBXGroup;
+			children = (
+				1EE9F1DA21D5845E00201196 /* FordFulkerson.cpp */,
+			);
+			path = networkFlow;
+			sourceTree = "<group>";
+		};
+		1EE9F1DB21D5A2EC00201196 /* segmentTree */ = {
+			isa = PBXGroup;
+			children = (
+				1EE9F1DC21D5A31200201196 /* fenwickTree */,
+			);
+			path = segmentTree;
+			sourceTree = "<group>";
+		};
+		1EE9F1DC21D5A31200201196 /* fenwickTree */ = {
+			isa = PBXGroup;
+			children = (
+				1EE9F1DF21D5CEC100201196 /* measureOfInsertSort.cpp */,
+				1EE9F1DD21D5A32600201196 /* fenwickTree.cpp */,
+			);
+			path = fenwickTree;
+			sourceTree = "<group>";
+		};
+		1EE9F1DE21D5CD4700201196 /* treap */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = treap;
+			sourceTree = "<group>";
+		};
 		1EF8E5C8219609790066F960 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
@@ -474,6 +527,9 @@
 		71020132217922E40039185A /* graph */ = {
 			isa = PBXGroup;
 			children = (
+				1EE9F1D921D5844F00201196 /* networkFlow */,
+				1EE9F1D721D5805900201196 /* 2SAT */,
+				1EE9F1D521D579D000201196 /* tarjanScc */,
 				71C96F1B2197732400A50F2C /* mst */,
 				71C96F1621972F3300A50F2C /* topologicalSort */,
 				71020133217922F20039185A /* bellman_ford */,
@@ -532,6 +588,8 @@
 		7168874321441B4900EAD7D6 /* code */ = {
 			isa = PBXGroup;
 			children = (
+				1EE9F1DE21D5CD4700201196 /* treap */,
+				1EE9F1DB21D5A2EC00201196 /* segmentTree */,
 				71870FB5219D1A5900EB5F59 /* etc */,
 				1EF8E5C8219609790066F960 /* LeetCode */,
 				71DF5957214DA4C7008B2EA4 /* stdc++.h */,
