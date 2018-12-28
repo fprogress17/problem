@@ -38,7 +38,7 @@ struct FenwickTree{
     }
     
     
-    void add(int pos, int val){
+    void add(int pos, int val){ // updata(int pos, int val)
         
         ++pos;
         
@@ -48,6 +48,13 @@ struct FenwickTree{
             pos += (pos & -pos);   // add last one bit to itself
             
         }
+    }
+    
+    void replace(int pos, int val){
+        // needed for leetcode
+        
+        
+        
     }
 }
 
